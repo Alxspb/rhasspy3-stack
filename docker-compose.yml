@@ -1,0 +1,12 @@
+services:
+  rhasspy:
+    image: alxspb/rhasspy3:latest
+    restart: unless-stopped
+    #volumes:
+    #environment:
+    #ports:
+    devices:
+      - "/dev/snd:/dev/snd"
+    #command: --user-profiles /profiles --profile ru
+    #group_add:
+    #  - audio
