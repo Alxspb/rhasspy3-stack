@@ -1,6 +1,6 @@
 services:
   rhasspy:
-    image: alxspb/rhasspy3:latest
+    image: starokaznikov/rhasspy3:latest
     restart: unless-stopped
     #volumes:
     #environment:
